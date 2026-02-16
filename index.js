@@ -18,7 +18,7 @@ async function startBot() {
 
         // أمر الفحص
         if (text === ".تشغيل") {
-            await sock.sendMessage(msg.key.remoteJid, { text: "ريو شغال🔥" })
+            await sock.sendMessage(msg.key.remoteJid, { text: "ريو شغال 🔥" })
         }
 
         // لعبة نرد

@@ -1,7 +1,7 @@
 {
-  "name": "whatsapp-bot",
+  "name": "rio-bot",
   "version": "1.0.0",
-  "description": "Simple WhatsApp Bot",
+  "description": "بوت واتساب عربي ريو",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,5 +11,6 @@
     "baileys": "^6.6.0",
     "axios": "^1.6.0",
     "qrcode-terminal": "^0.12.0"
-  }
+  },
+  "engines": { "node": "18.x" }
 }

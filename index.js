@@ -49,7 +49,6 @@ async function startBot() {
         if (text?.startsWith(".انستا ")) {
             const url = text.split(" ")[1]
             await sock.sendMessage(msg.key.remoteJid, { text: `📥 جاري تحميل الفيديو من: ${url}` })
-            // لاحقاً نضيف كود التحميل الحقيقي من API
         }
 
     })
